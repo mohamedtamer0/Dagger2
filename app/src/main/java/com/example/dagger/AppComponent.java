@@ -7,5 +7,6 @@ import dagger.Component;
 @Singleton
 @Component(modules = RiverModule.class)
 public interface AppComponent {
-    River getRiver();
+    CoffeeComponent.Builder getCoffeeComponentBuilder();
+
 }

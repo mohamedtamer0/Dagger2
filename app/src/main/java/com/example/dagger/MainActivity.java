@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         AppComponent component = ((MainApplication) getApplication()).getAppComponent();
-        CoffeeComponent coffeeComponent = DaggerCoffeeComponent.builder().milk(4)
-                .sugar(4).appComponent(component).build();
+        CoffeeComponent coffeeComponent = component.getCoffeeComponentBuilder().milk(4)
+                .sugar(4).build();
         coffeeComponent.inject(this);
         Log.d(TAG, "Tamer onCreate: " +
                 "\n coffee 1: " + coffee +
