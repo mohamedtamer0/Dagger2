@@ -1,7 +1,7 @@
 # Dagger2
 
 
-```
+```gradle
 dependencies {
     implementation 'com.google.dagger:dagger-android-support:2.20' // if you use the support libraries
     annotationProcessor 'com.google.dagger:dagger-android-processor:2.20'
