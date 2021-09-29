@@ -8,12 +8,21 @@ dependencies {
     annotationProcessor 'com.google.dagger:dagger-compiler:2.20'
 }
 ```
-# Constructor Injection  @Inject & @Component  
-# Field Injection & Method Injection
-# Modules and provides
-# run time dependency injection
-# Component builder & qualifiers
-# scope  
-# General Scope & @Singleton
-# Custom Scope
-# Subcomponent
+
+1- Constructor Injection  @Inject & @Component  
+
+2- Field Injection & Method Injection
+
+3- Modules and provides
+
+4- run time dependency injection
+
+5 Component builder & qualifiers
+
+6- scope  
+
+7- General Scope & @Singleton
+
+8- Custom Scope
+
+9- Subcomponent
